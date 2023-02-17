@@ -1,0 +1,17 @@
+{
+    "name": "nimish.kacha/phptest",
+    "autoload": {
+        "psr-4": {
+            "NimishKacha\\Phptest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nimish.kacha",
+            "email": "nimish.kacha@brainvire.com"
+        }
+    ],
+    "require": {
+        "n3xt0r/mysql-data-anonymizer": "^1.1"
+    }
+}

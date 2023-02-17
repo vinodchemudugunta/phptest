@@ -1,0 +1,23 @@
+{
+	"name": "n3xt0r/mysql-data-anonymizer",
+    "description": "Anonymize sensitive datas in test database",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Heng ZENG",
+            "email": "heng.zeng@globalis-ms.com"
+        },
+        {
+            "name": "Ilya Beliaev",
+            "email": "info@php-dev.info"
+        }
+    ],
+    "require": {
+    	"php": ">=7.2",
+        "amphp/mysql": "^1.1",
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": { "Globalis\\MysqlDataAnonymizer\\": "src/" }
+    }
+}
